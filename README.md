@@ -13,7 +13,7 @@ A pure client-side patch (`src/client.js`, no build step) - it doesn't add any h
 ## Install
 
 ```sh
-dsh plugin --profile web add @zg2017/dsh-plugin-model-icons
+dsh plugin --profile web add @gz2016/dsh-plugin-model-icons
 ```
 
 No configuration - it works out of the box for any provider already in your model catalog.

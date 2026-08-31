@@ -1,4 +1,4 @@
-// Client half of @zg2017/dsh-plugin-model-icons. Hand-written, no build
+// Client half of @gz2016/dsh-plugin-model-icons. Hand-written, no build
 // step - a hand-written client.js keeps the build graph simple for a small DOM patch.
 //
 // Two fixes for the composer toolbar row (InputBar.tsx's `.row`, a real
@@ -48,7 +48,7 @@
 // MutationObserver keyed on document.body re-applies the tagging/icon
 // idempotently rather than doing it once.
 window.__ModuleLoader__.load({
-  id: '@zg2017/dsh-plugin-model-icons',
+  id: '@gz2016/dsh-plugin-model-icons',
   factory: function (require) {
     var module = { exports: {} }
     var exports = module.exports
