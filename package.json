@@ -1,6 +1,6 @@
 {
   "name": "@gz2016/dsh-plugin-model-icons",
-  "description": "Composer polish: the model-select button now shows a per-provider brand icon and collapses to icon-only under a narrow composer row (same mechanism as the built-in access-mode button), and the image-attach button sits next to the mic. Fixes the toolbar row overflowing to two lines when the row gets narrow.",
+  "description": "Composer polish: the model-select button shows a per-provider brand icon and collapses to icon-only under a narrow composer row (same mechanism as the built-in access-mode button), with a generic fallback icon for unrecognized/new providers.",
   "version": "0.1.0",
   "license": "MIT",
   "author": "ZG2017",
