@@ -1,0 +1,32 @@
+{
+  "name": "@zg2017/dsh-plugin-model-icons",
+  "description": "Composer polish: the model-select button now shows a per-provider brand icon and collapses to icon-only under a narrow composer row (same mechanism as the built-in access-mode button), and the image-attach button sits next to the mic. Fixes the toolbar row overflowing to two lines when the row gets narrow.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "ZG2017",
+  "homepage": "https://github.com/ZG2017/dsh-plugin-model-icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZG2017/dsh-plugin-model-icons.git"
+  },
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "composer", "model-selector"],
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  }
+}
