@@ -6,6 +6,10 @@ Small composer polish: the model-select button shows a real brand icon for the a
 
 ![Composer toolbar with brand icon on the model button](./screenshots/model-icons.png)
 
+On a narrow composer row (a phone, or a resized desktop window), the trigger collapses to icon-only instead of pushing the row to wrap:
+
+![Icon-only collapse on a narrow composer row](./screenshots/model-icons-mobile.png)
+
 ## Provider coverage
 
 Detection works off the visible model name text (e.g. "GLM 5.3 Flash", "gpt-4o", "claude-3.5-sonnet") rather than an internal provider id — DSH's own model catalog wire type doesn't expose one to the client, so the name is the only signal available. Currently recognized out of the box: OpenAI, Anthropic, Google (Gemini), DeepSeek, Zhipu/GLM, xAI/Grok, Meta/Llama, Mistral, Qwen, Moonshot/Kimi, Cohere.
